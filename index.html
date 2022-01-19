@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS Website</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://kit.fontawesome.com/9880171930.js" crossorigin="anonymous"></script>
+
+    <script src="js/script.js"></script>
+</head>
+<body>
+    <header>
+        <div class="upperNav">
+                <h1><i class="fas fa-plus"></i> BritishRedCross</h1>
+
+            <button class =  "search">
+                <i class="fas fa-search"></i>
+                SEARCH
+            </button>
+            <button class = "menu">
+                <i class="fas fa-bars"></i>
+                Menu
+            </button>
+            <button class = "donate" onclick="msg()">DONATE</button>
+        </div>
+        <nav>
+            <a href="#">Get help</a>
+            <a href="#">Get involved</a>
+            <a href="#">First aid</a>
+            <a href="#">About us</a>
+            <a href="#">Shop</a>
+            <a href="#">Stories</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class = "landing">
+            <img src="img/granny-gc87b6865b_1920.jpg" alt="granny">
+            <div class="cta" id = "cta">
+                <h2 id = "helping">Support people in crisis this winter</h2>
+                <p>Help us reach people in the UK and around the world who are struggling right now.</p>
+
+                <button onclick="help()" id = "btn-help">I WANT TO HELP</button>
+            </div>
+        </section>
+    </main>
+    
+</body>
+</html>

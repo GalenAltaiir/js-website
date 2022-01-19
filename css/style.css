@@ -1,0 +1,132 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Noto+Sans&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat', sans-serif;
+}
+
+body header {
+  width: 100%;
+  height: 60px;
+}
+
+body header .upperNav {
+  display: -ms-grid;
+  display: grid;
+  border: 1px solid lightgrey;
+  -ms-grid-columns: 10fr 1fr 1fr;
+      grid-template-columns: 10fr 1fr 1fr;
+}
+
+body header .upperNav h1 {
+  margin-left: 15px;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: auto auto;
+      grid-template-columns: auto auto;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-column-gap: none;
+          column-gap: none;
+  font-size: 1rem;
+}
+
+body header .upperNav h1 i {
+  -ms-grid-column-align: right;
+      justify-self: right;
+  color: #dd0f0f;
+  font-size: 1.5rem;
+  margin-right: 5px;
+}
+
+body header .upperNav .menu {
+  display: -ms-grid;
+  display: grid;
+  width: 60px;
+  height: 60px;
+  border: 1px solid lightgray;
+  border-top: 0;
+  border-bottom: 0;
+  background: none;
+  row-gap: none;
+}
+
+body header .upperNav .menu i {
+  -ms-flex-item-align: end;
+      align-self: flex-end;
+  font-size: 1rem;
+}
+
+body header .upperNav .search {
+  display: none;
+}
+
+body header .upperNav .search i {
+  font-size: 1.25rem;
+  margin-top: 5px;
+}
+
+body header .upperNav .donate {
+  display: -ms-grid;
+  display: grid;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: #dd0f0f;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  width: 60px;
+  height: 60px;
+  font-size: .65rem;
+  border: none;
+}
+
+body header nav {
+  display: none;
+}
+
+body main .landing {
+  display: -ms-grid;
+  display: grid;
+  position: relative;
+  width: 100%;
+  height: calc(100vh - 60px);
+  overflow: hidden;
+}
+
+body main .landing img {
+  -ms-grid-column-align: center;
+      justify-self: center;
+  width: 100%;
+  height: auto;
+  max-height: 800px;
+  max-width: 1000px;
+}
+
+body main .landing .cta {
+  text-align: center;
+  height: calc(39vh);
+  background: #dd0f0f;
+  color: white;
+  padding: 0;
+}
+
+body main .landing .cta h2 {
+  margin-top: -5px;
+  padding: 25px;
+  padding-top: 10vh;
+}
+
+body main .landing .cta p {
+  padding-bottom: 25px;
+}
+
+body main .landing .cta button {
+  padding: 10px;
+  border: none;
+  color: #dd0f0f;
+  font-size: .9rem;
+}
+/*# sourceMappingURL=style.css.map */
